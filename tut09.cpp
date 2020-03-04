@@ -34,20 +34,19 @@ int main()
     switch (age)
     {
     case 60:
-        cout <<"But you are much older for our party." <<endl;
+        cout << "But you are much older for our party." << endl;
         break;
     case 35:
-        cout <<"You may come but don't spoil anything." <<endl;
+        cout << "You may come but don't spoil anything." << endl;
         break;
     case 70:
-        cout <<"but you may not be able to dance dear." <<endl;
+        cout << "but you may not be able to dance dear." << endl;
         break;
-    
+
     default:
-    cout << "No special cases." <<endl;
+        cout << "No special cases." << endl;
         break;
     }
-
 
     return 0;
 }
